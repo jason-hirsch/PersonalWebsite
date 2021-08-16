@@ -1,0 +1,18 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+.main-div {
+    flex: auto;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.description-text {
+    color: $white !important;
+    font-size: x-large !important;
+}
+
+.footer-text {
+    color: $white !important;
+    font-size: medium !important;
+}

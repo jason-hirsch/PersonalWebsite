@@ -1,0 +1,21 @@
+.main-div {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 100vh;
+}
+
+.description-text {
+  color: #fff !important;
+  font-size: x-large !important;
+}
+
+.footer-text {
+  color: #fff !important;
+  font-size: medium !important;
+}
+/*# sourceMappingURL=main.css.map */

@@ -11,7 +11,12 @@
 
 .description-text {
   color: #fff !important;
-  font-size: x-large !important;
+  font-size: large !important;
+}
+
+.technology-text {
+  color: #fff;
+  font-size: medium !important;
 }
 
 .footer-text {

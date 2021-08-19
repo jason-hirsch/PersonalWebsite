@@ -6,7 +6,7 @@ class NavBar extends Component {
     state = {
         navButtons: [
             { header: { name: "Home", link: "/" }, children: [] },
-            {
+            /*{
                 header: { name: "Data Structures" },
                 children: [
                     { name: "Red-Black Tree", link: "/datastructures/rbt" },
@@ -19,7 +19,7 @@ class NavBar extends Component {
                     { name: "Sorting", link: "/algorithms/sorting" },
                     { name: "Pathfinding", link: "/algorithms/pathfinding" },
                 ],
-            },
+            },*/
             {
                 header: { name: "Games" },
                 children: [

@@ -14,7 +14,7 @@ class AboutMe extends Component {
     };
     render() {
         return (
-            <React.Fragment>
+            <div style={{ height: "100vh" }}>
                 <div className="py-5"></div>
                 <div className="py-5"></div>
                 <div className="py-5"></div>
@@ -35,7 +35,7 @@ class AboutMe extends Component {
                         </a>
                     ))}
                 </div>
-            </React.Fragment>
+            </div>
         );
     }
 }

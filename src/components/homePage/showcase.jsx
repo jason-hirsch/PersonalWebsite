@@ -25,10 +25,6 @@ class Showcase extends Component {
     }
 
     resizeImage = () => {
-        console.log(
-            this.imgDivRef.current.offsetWidth,
-            this.imgDivRef.current.offsetHeight
-        );
         fetch(this.props.image)
             .then((response) => response.blob())
             .then((image) =>

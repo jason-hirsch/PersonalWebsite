@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 class AboutMe extends Component {
     state = {

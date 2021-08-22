@@ -32,21 +32,24 @@ class NavBar extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <link href="/src/styles/navButton.css" rel="stylesheet"></link>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div className="container-fluid d-flex justify-content-end">
-                        {this.state.navButtons.map((navButton) => (
-                            <NavButton
-                                key={navButton.header.name}
-                                className="mx-4"
-                                data={navButton}
-                            ></NavButton>
-                        ))}
-                        <div className="spacer"></div>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <div
+                        className="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul className="navbar-nav ms-auto">
+                            {this.state.navButtons.map((navButton) => (
+                                <NavButton
+                                    key={navButton.header.name}
+                                    data={navButton}
+                                ></NavButton>
+                            ))}
+                        </ul>
                     </div>
-                </nav>
-            </React.Fragment>
+                    <div className="spacer"></div>
+                </div>
+            </nav>
         );
     }
 }

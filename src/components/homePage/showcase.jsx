@@ -46,10 +46,7 @@ class Showcase extends Component {
                 className="d-flex flex-row justify-content-center"
                 style={{ height: "100vh" }}
             >
-                <div
-                    className="d-inline d-flex flex-column justify-content-center px-5"
-                    style={{ width: "50%" }}
-                >
+                <div className="d-inline d-flex flex-column justify-content-center px-5">
                     <h1 className="display-4 bg-dark text-warning px-5 py-3">
                         {this.props.title}
                     </h1>
@@ -74,11 +71,7 @@ class Showcase extends Component {
                     </div>
                 </div>
 
-                <div
-                    className="d-inline text-center px-5"
-                    ref={this.imgDivRef}
-                    style={{ width: "50%" }}
-                >
+                <div className="d-inline text-center px-5" ref={this.imgDivRef}>
                     <div
                         className="d-flex flex-column justify-content-center px-5"
                         style={{ height: "100%" }}

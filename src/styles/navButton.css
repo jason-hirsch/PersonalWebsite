@@ -1,4 +1,5 @@
-@import url(/react-app/node_modules/@fortawesome/fontawesome-free/css/all.css);
+@import url(/node_modules/@fortawesome/fontawesome-free/css/all.css);
+
 .navbar {
     position: relative;
     display: -webkit-box;

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Resizer from "react-image-file-resizer";
 import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 import "../../styles/showcase.css";
 

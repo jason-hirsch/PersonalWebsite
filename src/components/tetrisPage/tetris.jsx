@@ -128,7 +128,7 @@ class Tetris extends Component {
                         className="btn btn-warning btn-lg mx-2 my-2"
                         onClick={() => this.toggleAI()}
                     >
-                        Toggle AI
+                        {this.getAiButtonText()}
                     </button>
                 </div>
 
@@ -239,6 +239,14 @@ class Tetris extends Component {
                 </div>
             </React.Fragment>
         );
+    }
+
+    getAiButtonText() {
+        if (this.aiPlaying) {
+            return "Turn AI Off";
+        } else {
+            return "Turn AI On";
+        }
     }
 
     getResetState() {

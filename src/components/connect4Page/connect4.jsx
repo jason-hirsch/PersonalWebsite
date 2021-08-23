@@ -148,10 +148,10 @@ class Connect4 extends Component {
                                             this.handleMouseLeave();
                                         }}
                                         onClick={(e) => {
-                                            this.handleClick();
+                                            this.handleClick(col);
                                         }}
                                         onTap={(e) => {
-                                            this.handleClick();
+                                            this.handleClick(col);
                                         }}
                                     />
                                 </React.Fragment>
@@ -330,10 +330,10 @@ class Connect4 extends Component {
         }
     }
 
-    handleClick() {
+    handleClick(col) {
         if (this.state.gameIsOver === false) {
-            let currRow = this.state.currentlyHovered.row;
-            let currCol = this.state.currentlyHovered.col;
+            let currRow = this.getLowestRow(col);
+            let currCol = col;
             if (currRow !== undefined && currCol !== undefined) {
                 let currCells = this.state.cells;
                 currCells[currRow][currCol].state = "filled";

@@ -15,6 +15,11 @@ class TetrisPage extends Component {
                     AI uses a depth first search algorithm to determine what
                     moves to make.
                 </p>
+                <p className="display-1 bg-dark description-text text-center px-5">
+                    To play the game yourself, have the AI off and use the WASD
+                    keys. A moves left, D moves right, W rotates clockwise, and
+                    S rotates counter clockwise.
+                </p>
                 <Tetris></Tetris>
             </div>
         );

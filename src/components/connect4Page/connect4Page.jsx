@@ -15,6 +15,10 @@ class Connect4Page extends Component {
                     minmax algorithm with alpha-beta pruning to determine what
                     move to make.
                 </p>
+                <p className="display-1 bg-dark description-text text-center px-5">
+                    Click where you want to place your piece and the AI will
+                    make its move.
+                </p>
                 <Connect4></Connect4>
             </div>
         );

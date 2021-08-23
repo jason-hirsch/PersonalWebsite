@@ -41,6 +41,12 @@ class Showcase extends Component {
     };
 
     render() {
+        /*
+        return (
+            <div className="container-fluid" style={{ height: "100vh" }}></div>
+        );
+        */
+
         return (
             <div
                 className="d-flex flex-row justify-content-center"
@@ -77,7 +83,7 @@ class Showcase extends Component {
                         style={{ height: "100%" }}
                     >
                         <img
-                            className="mx-auto py-1"
+                            className="img-fluid mx-auto py-1"
                             src={this.state.image}
                             alt=""
                         ></img>

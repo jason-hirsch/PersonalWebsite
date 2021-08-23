@@ -16,12 +16,12 @@ class Showcase extends Component {
     }
 
     componentDidMount() {
-        this.resizeImage();
-        window.addEventListener("resize", this.resizeImage);
+        //this.resizeImage();
+        //window.addEventListener("resize", this.resizeImage);
     }
 
     componentWillUnmount() {
-        window.removeEventListener("resize", this.resizeImage);
+        //window.removeEventListener("resize", this.resizeImage);
     }
 
     resizeImage = () => {

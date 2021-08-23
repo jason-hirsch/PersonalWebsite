@@ -15,10 +15,7 @@ class Showcase extends Component {
 
     render() {
         return (
-            <div
-                className="showcase-container d-flex justify-content-between"
-                style={{ height: "100vh" }}
-            >
+            <div className="showcase-container d-flex">
                 <div className="d-flex flex-column justify-content-center px-5 py-5">
                     <h1 className="display-4 bg-dark text-warning py-3">
                         {this.props.title}

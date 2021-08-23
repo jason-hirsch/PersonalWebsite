@@ -1,11 +1,15 @@
 @media all and (max-width: 992px) {
     .showcase-container {
         flex-direction: column !important;
+        height: 150vh !important;
+        justify-content: center !important;
     }
 }
 
 @media all and (min-width: 993px) {
     .showcase-container {
         flex-direction: row !important;
+        height: 100vh !important;
+        justify-content: space-between !important;
     }
 }

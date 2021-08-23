@@ -1,0 +1,18 @@
+@media all and (max-width: 992px) {
+  .showcase-container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
+@media all and (min-width: 993px) {
+  .showcase-container {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+}
+/*# sourceMappingURL=showcase.css.map */

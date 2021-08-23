@@ -1,0 +1,11 @@
+@media all and (max-width: 992px) {
+    .showcase-container {
+        flex-direction: column !important;
+    }
+}
+
+@media all and (min-width: 993px) {
+    .showcase-container {
+        flex-direction: row !important;
+    }
+}

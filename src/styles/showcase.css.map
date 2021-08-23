@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,mBAAmB,CAAC;IAChB,cAAc,EAAE,iBAAiB;GACpC;;;AAGL,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,mBAAmB,CAAC;IAChB,cAAc,EAAE,cAAc;GACjC",
+    "sources": [
+        "showcase.scss"
+    ],
+    "names": [],
+    "file": "showcase.css"
+}

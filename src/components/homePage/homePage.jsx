@@ -42,7 +42,7 @@ class HomePage extends Component {
                 description:
                     "A desktop application for injecting dynamic linked libraries (DLLs) into exectuables.",
                 technologies: ["C++", "Qt UI Framework", "Windows SDK"],
-                github: "https://github.com/jason-hirsch",
+                github: "https://github.com/jason-hirsch/DLL-Injector",
                 image: DllInjectorImage,
             },
         ],
